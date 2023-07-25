@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Olynpus</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid&pc=%23ffbb00">
+    <script src="https://kit.fontawesome.com/9c38bef387.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navegation">
+
+            <div class="navegation-top">
+                <img class="logo child" src="imagens/logo.png" alt="">
+
+            <div class="container-login child">
+                <div class="login">
+                    <a class="login-1"  href="login.html">login</a>
+                    <a  class="login-2" href="#">cadastre-se</a>
+                </div>
+                
+                    <div class="search-container child">
+                        <input type="text" id="search" placeholder="Digite aqui">
+                        <button type="submit" id="search2">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #030303;"></i>
+                        </button>
+                    </div>
+            </div>
+            </div>
+
+            <ul class="menu child">
+                <li><a href="index.html">Mais vendidos</a></li>
+                <li><a href="ofertas da semana.html">Ofertas da semana</a></li>
+                <li><a href="classicos.html">Clássicos</a></li>
+                <li><a href="técnicos.html">Técnicos</a></li>
+                <li><a href="infantil.html">Infantil</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="produto">
+
+            <h1 class="sale" >Infantil</h1>
+            
+            <div class="container">
+            
+            <div class="book">
+                <img class="produto-img" src="imagens/infantil/anne de green gables.jpg" alt="">
+                <p class="produto-nome">Anne de Green Gables</p>
+                <p class="produto-preco">R$ 31,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+            
+            <div class="book">
+                <img class="produto-img" src="imagens/infantil/banana.jpg" alt="">
+                <p class="produto-nome">Diário de um Banana</p>
+                <p class="produto-preco">R$ 55,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>    
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/infantil/brincando com lucas neto.jpg" alt="">
+                <p class="produto-nome">Brincando com Luccas Neto 
+                </p>
+                <p class="produto-preco">R$ 24,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/infantil/principe.jpg" alt="">
+                <p class="produto-nome">O Pequeno Príncipe</p>
+                <p class="produto-preco">R$ 10,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/infantil/cacadas de pedrinho.jpg" alt="">
+                <p class="produto-nome">Caçadas de Pedrinho</p>
+                <p class="produto-preco">R$ 53,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div class="book">  
+                <img class="produto-img" src="imagens/infantil/pollyana.jpg" alt="">
+                <p class="produto-nome">
+                    Pollyanna</p>
+                <p class="produto-preco">R$ 12,90</p>
+            <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/infantil/capitao cueca.jpg" alt="">
+                <p class="produto-nome">
+                    As Aventuras do Capitão Cueca</p>
+                <p class="produto-preco">R$ 44,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>    
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/infantil/dois mundos um heroi.jpg" alt="">
+                <p class="produto-nome">
+                    Dois Mundos Um Herói</p>
+                <p class="produto-preco">R$ 32,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/infantil/fabulas.jpg" alt="">
+                <p class="produto-nome">Minhas queridas Fábulas</p>
+                <p class="produto-preco">R$ 37,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/infantil/memorias da emilia.jpg" alt="">
+                <p class="produto-nome">Memórias da Emília</p>
+                <p class="produto-preco">R$ 72,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            </div>
+
+        </section>
+    </main>
+    
+    <footer>
+        <p class="copy" >39332-971 MG</p>
+        <p class="copy">Rua Brasília de Minas 2512 </p>
+        <p class="copy" >(31) 3232-7576 (31) 99731-4868</p>
+        <p class="copy" >olynpus©2020-2023-All Rights Reserved</p>
+    </footer>
+    <script src="code.js"></script>
+</body>
+
+</html>

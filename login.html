@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Olynpus</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid&pc=%23ffbb00">
+    <script src="https://kit.fontawesome.com/9c38bef387.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navegation">
+
+            <div class="navegation-top">
+                <img class="logo child" src="imagens/logo.png" alt="">
+
+            <div class="container-login child">
+                <div class="login">
+                    <a class="login-1"  href="login.html">login</a>
+                    <a  class="login-2" href="#">cadastre-se</a>
+                </div>
+                
+                    <div class="search-container child">
+                        <input type="text" id="search" placeholder="Digite aqui">
+                        <button type="submit" id="search2">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #030303;"></i>
+                        </button>
+                    </div>
+            </div>
+            </div>
+
+            <ul class="menu child">
+                <li><a href="index.html">Mais vendidos</a></li>
+                <li><a href="ofertas da semana.html">Ofertas da semana</a></li>
+                <li><a href="classicos.html">Clássicos</a></li>
+                <li><a href="técnicos.html">Técnicos</a></li>
+                <li><a href="infantil.html">Infantil</a></li>
+            </ul>
+
+        </nav>
+
+    <div class="login-confirm-container">
+
+       
+        <section class="login-confirm">
+            <h1 class="login-text">Login</h1>
+            <p class="login-text-2">usuário</p>
+            <input id="user-id" type="text" placeholder="Digite o nome de usuário" name="user">
+            <p class="login-text-2">senha</p>
+            <input id="password" type="password" placeholder="Digite a senha" name="pass">
+            <button type="submit" onclick="logar()" id="login-btm" >Entrar</button>
+        </section>
+    </div>
+    </header>
+    <script src="code.js"></script>
+</body>
+
+</html>

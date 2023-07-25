@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Olynpus</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid&pc=%23ffbb00">
+    <script src="https://kit.fontawesome.com/9c38bef387.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navegation">
+
+            <div class="navegation-top">
+                <img class="logo child" src="imagens/logo.png" alt="">
+
+            <div class="container-login child">
+                <div class="login">
+                    <a class="login-1"  href="login.html">login</a>
+                    <a  class="login-2" href="#">cadastre-se</a>
+                </div>
+                
+                    <div class="search-container child">
+                        <input type="text" id="search" placeholder="Digite aqui">
+                        <button type="submit" id="search2">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #030303;"></i>
+                        </button>
+                    </div>
+            </div>
+            </div>
+
+            <ul class="menu child">
+                <li><a href="index.html">Mais vendidos</a></li>
+                <li><a href="ofertas da semana.html">Ofertas da semana</a></li>
+                <li><a href="classicos.html">Clássicos</a></li>
+                <li><a href="técnicos.html">Técnicos</a></li>
+                <li><a href="infantil.html">Infantil</a></li>
+            </ul>
+
+        </nav>
+    </header>
+  
+
+    <main>
+        <section class="produto">
+
+            <h1 class="sale" >Técnicos</h1>
+            
+            <div class="container">
+            
+            <div class="book">
+                <img class="produto-img" src="imagens/tecnico/arquitetura.jpg" alt="">
+                <p class="produto-nome">Arte de Projetar em Arquitetura
+                </p>
+                <p class="produto-preco">R$ 131,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+            
+            <div class="book">
+                <img class="produto-img" src="imagens/tecnico/biologia.jpg" alt="">
+                <p class="produto-nome">Fundamentos da Biologia Moderna</p>
+                <p class="produto-preco">R$ 155,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>    
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/tecnico/design.jpg" alt="">
+                <p class="produto-nome">Processo de Criação em Design Gráfico</p>
+                <p class="produto-preco">R$ 224,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/tecnico/direito.jpg" alt="">
+                <p class="produto-nome">Manual de Direito Civil</p>
+                <p class="produto-preco">R$ 110,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/tecnico/matematica.jpg" alt="">
+                <p class="produto-nome">
+                    Fundamentos da  Matemática Elementar</p>
+                <p class="produto-preco">R$ 153,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div class="book">  
+                <img class="produto-img" src="imagens/tecnico/enfermagem.jpg" alt="">
+                <p class="produto-nome">Fundamentos de Enfermagem</p>
+                <p class="produto-preco">R$ 312,90</p>
+            <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/tecnico/filosofia.jpg" alt="">
+                <p class="produto-nome">Textos Básicos de Filosofia</p>
+                <p class="produto-preco">R$ 144,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>    
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/tecnico/geometria.jpg" alt="">
+                <p class="produto-nome">Vetores e Geometria Analítica</p>
+                <p class="produto-preco">R$ 232,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/tecnico/ingles.jpg" alt="">
+                <p class="produto-nome">Essential Grammar in Use</p>
+                <p class="produto-preco">R$ 137,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div class="book">
+                <img class="produto-img" src="imagens/tecnico/nutrição.jpg" alt="">
+                <p class="produto-nome">Nutrição Esportiva Mitos e Verdades</p>
+                <p class="produto-preco">R$ 172,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            </div>
+
+        </section>
+    </main>
+    
+    <footer>
+        <p class="copy" >39332-971 MG</p>
+        <p class="copy">Rua Brasília de Minas 2512 </p>
+        <p class="copy" >(31) 3232-7576 (31) 99731-4868</p>
+        <p class="copy" >olynpus©2020-2023-All Rights Reserved</p>
+    </footer>
+    <script src="code.js"></script>
+</body>
+</html>

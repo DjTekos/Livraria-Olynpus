@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Olynpus</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid&pc=%23ffbb00">
+    <script src="https://kit.fontawesome.com/9c38bef387.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navegation">
+
+            <div class="navegation-top">
+                <img class="logo child" src="imagens/logo.png" alt="">
+
+            <div class="container-login child">
+                <div class="login">
+                    <a class="login-1"  href="login.html">login</a>
+                    <a  class="login-2" href="#">cadastre-se</a>
+                </div>
+                
+                    <div class="search-container child">
+                        <input type="text" id="search" placeholder="Digite aqui">
+                        <button type="submit" id="search2">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #030303;"></i>
+                        </button>
+                    </div>
+            </div>
+            </div>
+
+            <ul class="menu child">
+                <li><a href="index.html">Mais vendidos</a></li>
+                <li><a href="ofertas da semana.html">Ofertas da semana</a></li>
+                <li><a href="classicos.html">Clássicos</a></li>
+                <li><a href="técnicos.html">Técnicos</a></li>
+                <li><a href="infantil.html">Infantil</a></li>
+            </ul>
+
+        </nav>
+    </header>
+  
+
+    <main>
+        <section class="produto">
+
+            <h1 class="sale" >Mais vendidos</h1>
+            
+            <div class="container">
+            
+            <div id="produto" class="book">
+                <img class="produto-img" src="imagens/livro1.png" alt="">
+                <p class="produto-nome">Iracema</p>
+                <p class="produto-preco">R$ 31,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+            
+            <div id="produto" class="book">
+                <img class="produto-img" src="imagens/livro2.jpg" alt="">
+                <p class="produto-nome">1984</p>
+                <p class="produto-preco">R$ 55,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>    
+            </div>
+
+            <div id="produto" class="book">
+                <img class="produto-img" src="imagens/livro3.jpg" alt="">
+                <p class="produto-nome">A Revolução dos Bichos</p>
+                <p class="produto-preco">R$ 24,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div id="produto" class="book">
+                <img class="produto-img" src="imagens/livro4.jpg" alt="">
+                <p class="produto-nome">Os Moomins e o Dilúvio</p>
+                <p class="produto-preco">R$ 10,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div id="produto" class="book">
+                <img class="produto-img" src="imagens/livro5.jpg" alt="">
+                <p class="produto-nome">Memórias Póstumas de Bras Cubas</p>
+                <p class="produto-preco">R$ 53,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div id="produto" class="book">  
+                <img class="produto-img" src="imagens/livro6.jpg" alt="">
+                <p class="produto-nome">O menino do pijama listrado</p>
+                <p class="produto-preco">R$ 12,90</p>
+            <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div id="produto" class="book">
+                <img class="produto-img" src="imagens/livro7.jpg" alt="">
+                <p class="produto-nome">O diário de Anne Frank</p>
+                <p class="produto-preco">R$ 44,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>    
+            </div>
+
+            <div id="produto" class="book">
+                <img class="produto-img" src="imagens/livro8.jpg" alt="">
+                <p class="produto-nome">Sherlock Holmes</p>
+                <p class="produto-preco">R$ 32,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div id="produto" class="book">
+                <img class="produto-img" src="imagens/livro9.jpg" alt="">
+                <p class="produto-nome">Frankenstein</p>
+                <p class="produto-preco">R$ 37,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            <div id="produto" class="book">
+                <img class="produto-img" src="imagens/livro10.jpg" alt="">
+                <p class="produto-nome">A Metamorfose</p>
+                <p class="produto-preco">R$ 72,90</p>
+                <button onclick="comprar()" class="btm">Comprar</button>
+            </div>
+
+            </div>
+
+        </section>
+    </main>
+    
+    <footer>
+        <p class="copy" >39332-971 MG</p>
+        <p class="copy">Rua Brasília de Minas 2512 </p>
+        <p class="copy" >(31) 3232-7576 (31) 99731-4868</p>
+        <p class="copy" >olynpus©2020-2023-All Rights Reserved</p>
+    </footer>
+    <script src="code.js"></script>
+</body>
+</html>

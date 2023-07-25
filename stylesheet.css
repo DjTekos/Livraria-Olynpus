@@ -1,0 +1,286 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+
+
+.logo{
+    width: 300px;
+}
+
+.navegation{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.child{
+    height: 25%;
+}
+
+
+.container-login{
+    margin-left: 40px;
+}
+
+.login{
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.login a{
+    color: black;
+}
+
+.login a:hover{
+    color: rgb(172, 77, 0);
+}
+
+.login-1{
+    background-color: orange;
+    padding: 5px;
+}
+
+
+.login-1:focus{
+    border: 1px solid black;
+}
+
+.login a{
+    text-decoration: none;
+}
+
+.fa-cart-shopping{
+    font-size: 25px;
+}
+
+.menu{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.menu li{
+    background-color:  orange;
+    display: block;
+    padding: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menu li a:hover{
+    color: rgb(172, 77, 0);
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.sale{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 50px; 
+}
+
+.book{
+    text-align: center;
+}
+
+.produto-img{
+    width: 300px;
+    height: 400px;
+    transition: 0.3s;
+}
+
+.produto-img:hover{
+    transform: scale(1.4);
+}
+
+.btm{
+    color: rgb(0, 0, 0);
+    margin-bottom: 6vw;
+    background-color: rgb(252, 173, 3);
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+}
+
+.btm:hover{
+    background-color:  rgb(252, 147, 0);
+}
+
+.btm:focus{
+    border: solid black 1px;
+}
+
+.copy{
+    text-align: center;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.login-confirm-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.login-confirm{
+    background-color: rgb(255, 234, 188);
+    background-image: linear-gradient(to bottom, rgb(255, 225, 160), rgba(255, 255, 255, 1));
+    border:black solid 1px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.login-text{
+    text-align: center;
+}
+
+
+#login-btm{
+    display: block;
+    margin-left: 60px;
+    background-color: orange;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#login-btm:hover{
+    background-color: rgb(252, 147, 0) ;
+}
+
+#login-btm:focus{
+    border: black solid 1px;
+}
+
+@media (min-width: 600px) {
+
+    .navegation-top{
+        background-color: orange;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    .logo{
+        width: 100px;
+    }
+
+   
+    .search-container:hover{
+        background-color: transparent;
+    }
+  
+    .login{
+        position:relative;
+        top: 15px;
+        margin-left: 20px;
+    }
+
+    .login a:hover{
+        color: rgb(172, 77, 0);
+        background-color: transparent;
+    }
+
+    .login-1{
+        background-color: transparent;
+    }
+    
+    .container{
+        max-width: 1000px;
+        display: grid;
+        grid-template-areas: 
+        "book book"
+        "book book"
+        "book book"
+        "book book"
+        "book book"
+        ;
+    }
+
+    .menu{
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .menu li{
+        background-color: transparent;
+        display: inline-block;
+        padding: 20px;
+    }
+    
+    .menu li a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    .menu li a:hover{
+        color: rgb(172, 77, 0);
+    }
+
+    .menu li:hover{
+        background-color: transparent;
+    }
+    
+    .login-confirm-container{
+    
+    }
+   
+}
+
+@media (min-width: 800px){
+
+   
+    .container{
+        max-width: 1400px;
+        display: grid;
+        margin-left: 50px;
+        margin-top: 30px;
+        grid-template-areas: 
+        "book book book book book"
+        "book book book book book";
+
+    }
+
+    .produto-img{
+        width: 200px;
+        height: 300px;
+    }
+
+    .login-confirm-container{
+        
+    }
+
+}
+
+@media (min-width: 1200px){
+
+    .container{
+        max-width: 1400px;
+        display: grid;
+        margin-left: 50px;
+        margin-top: 30px;
+        grid-template-areas: 
+        "book book book book book"
+        "book book book book book";
+
+    }
+
+}
